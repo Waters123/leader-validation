@@ -1,0 +1,29 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: BPGNinoMtavruli, FiraGo, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #262626;
+  padding: 0 0 5rem 0;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 180px auto;
+  min-height: 50rem;
+}
+
+@media (max-width: 948px) {
+  .container {
+    margin: 0 auto;
+  }
+}
